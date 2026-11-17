@@ -2,6 +2,10 @@
 
 A **working, responsive proof of concept** for a proposed automotive technician learning application. Uses a Renault-inspired monochrome interface with full-colour user-supplied car photography. **Not an official Renault application.**
 
+## Deploy to Vercel
+
+See **[DEPLOY-TO-VERCEL.md](DEPLOY-TO-VERCEL.md)** for GitHub/Vercel or CLI deployment instructions.
+
 ## Run locally
 
 1. Install Node.js 20+.
@@ -46,3 +50,12 @@ Obtain Renault/MSXI approval for use of logos, photography, brand assets and int
 - `public/renault-hero.webp` — image provided in the conversation
 
 © Demonstration only. Renault brand/trademarks remain those of their respective owners.
+
+
+## Hints & Tips: Forced Ignition Procedure
+
+The supplied video is available from **Learn → Hints & Tips → Forced Ignition Procedure**. It is a local static MP4 asset served from `public/forced-ignition-procedure.mp4` with a video poster image. The other demonstration video cards are still placeholders.
+
+**Before publishing:** confirm the video and Renault trademarks are authorised for the intended audience, and protect the deployment if this material is internal. Making a GitHub repository private does not make the deployed video private.
+
+The Clio Drive game source and behaviour have not been changed.
